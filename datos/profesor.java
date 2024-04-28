@@ -1,4 +1,5 @@
 package datos;
+
 public class profesor extends Personas {
     double Salario;
     
@@ -16,19 +17,19 @@ public class profesor extends Personas {
     }
 
     public String getNombre() {
-        return nombre;
+        return Nombre;
     }
 
     public void setNombre(String Nombre) {
-        this.nombre = Nombre;
+        this.Nombre = Nombre;
     }
 
     public String getCedula() {
-        return cedula;
+        return Cedula;
     }
 
     public void setCedula(String Cedula) {
-        this.cedula = Cedula;
+        this.Cedula = Cedula;
     }
 
     @Override
