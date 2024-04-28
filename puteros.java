@@ -1,8 +1,13 @@
+import javax.swing.JOptionPane;
+
 public class puteros {
 
 public static void main(String[] args) {
    
-    System.out.println("pipi");
+    JOptionPane.showMessageDialog(null, "hola");
+
+
+
 
 
 
